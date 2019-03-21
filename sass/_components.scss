@@ -228,7 +228,7 @@ align-items: center;
 border-bottom: 1px solid var(--color-grey-light-2);
 
     &__heading {
-        font-size: 2.2.5rem;
+        font-size: 2.25rem;
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -265,7 +265,6 @@ border-bottom: 1px solid var(--color-grey-light-2);
         color: #fff;
         padding: 0 2.25rem;
         align-self: stretch;
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -276,7 +275,6 @@ border-bottom: 1px solid var(--color-grey-light-2);
         font-size: 2.25rem;
         font-weight: 300;
         margin-bottom: -3px;
-
     }
 
     &__rating-count {
@@ -324,6 +322,7 @@ border-bottom: 1px solid var(--color-grey-light-2);
         transform: scale(1.05);
         box-shadow: 0 1rem 4rem rgba(0,0,0,.25);
     }
+
     100% {
         transform: scale(1);
         box-shadow: none;
